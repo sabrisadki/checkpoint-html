@@ -1,0 +1,56 @@
+#about, #work {
+    display:block;
+}
+p { 
+    font-family: Helvetica neue, roboto;
+     text-decoration: none;
+     font-weight: normal;
+     font-style: bold;
+     color: rgb(0, 0, 255);
+     
+}
+body {
+    background-color: rgb(168, 148, 110);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: green;
+  }
+header {
+    display:flex;
+
+}
+.test {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    display: inline-block;
+  }
